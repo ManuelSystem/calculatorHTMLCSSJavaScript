@@ -1,0 +1,64 @@
+<!-- Documento HTML
+Realizado por LUIS MANUEL JAIMES SILVA - 16132045
+--Asignatura : Electiva 3--
+Fecha terminado: 21/02/2020;
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" /><!-- Etiqueta para adaptar a @media -->
+  <link rel="stylesheet" type="text/css" href="css/stile.css"><!-- Enlace hoja estilos -->
+  
+  <title>Mi calculadora Web</title>
+  
+</head>
+<body onload="init();">
+  <form name="calculator">
+    <h3>Calculadora con HTML  & CSS</h3>
+<span id="resultado"></span>   
+    <br><br>   
+    <div class="operadores">
+    <input type="button" value="+" id="suma">
+    <input type="button" value="-" id="resta">
+    <input type="button" value="*" id="multiplicacion">
+    <br>
+    <input type="button" value="/" id="division">
+    <input type="button" value="%" id="modulo">
+    <input type="button" value="++" id="masMas">
+    <br>
+    <input type="button" value="/=" id="diviigual">
+    <input type="button" value="%=" id="modigual">
+    <input type="button" value="--" id="menosMenos">
+    <br>
+    <input type="button" value="*=" id="porigual">
+    <input type="button" value="-=" id="menosigual"> 
+    <input type="button" value="+=" id="Masigual" >
+    <br>
+    <input type="button" value="=" id="igual">
+    </div>
+    <input type="button" value="7" id="siete">
+    <input type="button" value="8" id="ocho">
+    <input type="button" value="9" id="nueve">
+    <br>
+    <input type="button" value="4" id="cuatro">
+    <input type="button" value="5" id="cinco">
+    <input type="button" value="6" id="seis">
+    
+    <br>
+    <input type="button" value="1" id="uno">
+    <input type="button" value="2" id="dos">
+    <input type="button" value="3" id="tres">
+    <br>
+    <input type="button" value="0" id="cero">
+    <input type="button" value="." disabled="true">
+    <input type="button" value="c" id="borrar">
+    <br>
+    
+    
+    </form>
+
+    <script type="text/javascript" src="js/funciones.js"></script><!-- Enlace a la hoja de scripts-->
+
+</body>
+</html>
